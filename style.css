@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.addBandMember {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 50px;
+}
+
+h1, h3, h5  {
+  text-align: center;
+}
+
+.flex-row {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.flex-row-container {
+  background: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-row-container > .flex-row-item {
+  flex: 1 1 30%;
+  height: 100px;
+}
+
+.flex-row-item {
+background-color: #e7e7e7;
+border: 1px solid  rgb(58, 58, 58);
+color: rgb(40, 40, 40) ;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
